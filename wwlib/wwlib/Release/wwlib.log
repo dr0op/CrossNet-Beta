@@ -1,0 +1,12 @@
+﻿  pch.cpp
+  dllmain.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\shy\source\repos\crossnet\crossnet\bin\debug\wwlib\wwlib\dllmain.cpp(131): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
+c:\users\shy\source\repos\crossnet\crossnet\bin\debug\wwlib\wwlib\dllmain.cpp(347): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+  wwlib.cpp
+  正在生成代码...
+c:\users\shy\source\repos\crossnet\crossnet\bin\debug\wwlib\wwlib\dllmain.cpp(270): warning C4172: 返回局部变量或临时变量的地址: shellbinbuf
+    正在创建库 C:\Users\shy\source\repos\CrossNet\CrossNet\bin\Debug\wwlib\Release\WWLIB.lib 和对象 C:\Users\shy\source\repos\CrossNet\CrossNet\bin\Debug\wwlib\Release\WWLIB.exp
+  wwlib.vcxproj -> C:\Users\shy\source\repos\CrossNet\CrossNet\bin\Debug\wwlib\Release\WWLIB.dll
